@@ -2,10 +2,11 @@ import React from 'react';
 import Navbar from './components/Shared/Navbar';
 import Footer from './components/Shared/Footer';
 import Subscribe from './components/Subscribe';
+import ChoosePlan from './components/ChoosePlan';
 
 const page = () => {
   return (
-    <div className='bg-white text-black'>
+    <div className='bg-gray-100 text-black'>
       <header>
         <nav>
           <Navbar></Navbar>
@@ -14,13 +15,18 @@ const page = () => {
       
       <main className='min-h-screen'>
         <div>
-          
+
+          {/* Choose Your Plan */}
+          <div className='bg-gray-100 py-10'>
+            <ChoosePlan></ChoosePlan>
+          </div>
+
         </div>
       </main>
 
       <footer className=''>
         {/* Subscribe Now */}
-        <div className='relative'>
+        <div className='relative '>
          <Subscribe></Subscribe>
         </div>
         {/* Footer */}

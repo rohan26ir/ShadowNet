@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Shared/Navbar';
 import Footer from './components/Shared/Footer';
+import Subscribe from './components/Subscribe';
 
 const page = () => {
   return (
@@ -17,8 +18,15 @@ const page = () => {
         </div>
       </main>
 
-      <footer>
+      <footer className=''>
+        {/* Subscribe Now */}
+        <div className='relative'>
+         <Subscribe></Subscribe>
+        </div>
+        {/* Footer */}
+        <div className='-mt-11'>
         <Footer></Footer>
+        </div>
       </footer>
     </div>
   );

@@ -6,7 +6,7 @@ import { FaInstagram, FaTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div className="bg-gray-300">
-      <div className="w-11/12 mx-auto py-5">
+      <div className="w-11/12 mx-auto py-20">
 
         <div className=" flex flex-col md:flex-row  justify-between gap-6">
           {/* 1st section */}

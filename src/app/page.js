@@ -5,6 +5,7 @@ import Subscribe from './components/Subscribe';
 import ChoosePlan from './components/ChoosePlan';
 import Provide from './components/Provide';
 import HomeCount from './components/HomeCount';
+import Hero from './components/Home/Hero';
 
 const page = () => {
   return (
@@ -17,6 +18,11 @@ const page = () => {
       
       <main className='min-h-screen'>
         <div>
+
+
+          <div className='bg-white'>
+            <Hero></Hero>
+          </div>
 
 
           <div className=''>

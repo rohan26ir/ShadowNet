@@ -4,6 +4,7 @@ import Footer from './components/Shared/Footer';
 import Subscribe from './components/Subscribe';
 import ChoosePlan from './components/ChoosePlan';
 import Provide from './components/Provide';
+import HomeCount from './components/HomeCount';
 
 const page = () => {
   return (
@@ -16,6 +17,11 @@ const page = () => {
       
       <main className='min-h-screen'>
         <div>
+
+
+          <div className=''>
+            <HomeCount></HomeCount>
+          </div>
 
           <div className='bg-white'>
             <Provide></Provide>

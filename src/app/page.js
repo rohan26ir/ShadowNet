@@ -6,6 +6,7 @@ import ChoosePlan from './components/ChoosePlan';
 import Provide from './components/Provide';
 import HomeCount from './components/HomeCount';
 import Hero from './components/Home/Hero';
+import Review from './components/Home/Review';
 
 const page = () => {
   return (
@@ -36,6 +37,10 @@ const page = () => {
           {/* Choose Your Plan */}
           <div className='bg-gray-100 py-10'>
             <ChoosePlan></ChoosePlan>
+          </div>
+
+          <div >
+            <Review></Review>
           </div>
 
         </div>

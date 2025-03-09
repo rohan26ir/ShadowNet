@@ -9,7 +9,7 @@ const Review = () => {
       name: "Viezh Robert",
       location: "Warsaw, Poland",
       rating: 4.5,
-      description: "“Wow... I am very happy to use this VPN. It turned out to be more than my expectations and so far there have been no problems. LaslesVPN is always the best.”",
+      description: "“Wow... I am very happy to use this VPN. It turned out to be more than my expectations and so far there have been no problems. ShadowNet is always the best.”",
     },
     {
       id: 2,
@@ -32,7 +32,7 @@ const Review = () => {
   return (
     <div className='py-10'>
       {/* Header Section */}
-      <div className='flex flex-col justify-center w-[90%] md:w-[50%] mx-auto text-center mb-8'>
+      <div className='flex flex-col justify-center w-[90%] md:w-[30%] mx-auto text-center mb-8'>
         <h2 className='text-3xl font-bold'>Trusted by Thousands of Happy Customers</h2>
         <p className='text-gray-600'>These are the stories of our customers who have joined us with great pleasure when using this service.</p>
       </div>
